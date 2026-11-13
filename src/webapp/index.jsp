@@ -11,7 +11,7 @@
 
   <style>
     body {
-      padding-top: 3.5rem; /* Evita que el menú fijo tape el carrusel */
+      padding-top: 3.5rem;
     }
     .carousel {
       margin-bottom: 4rem;
@@ -44,6 +44,9 @@
               <a class="nav-link" href="#">Catalogo</a>
             </li>
           </ul>
+          <div class="d-flex gap-2">
+            <a href="signIn.jsp" class="btn btn-outline-light">Iniciar sesión</a>
+          </div>
         </div>
       </div>
     </nav>
