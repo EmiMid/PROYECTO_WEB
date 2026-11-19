@@ -1,0 +1,23 @@
+/* XFUERA · Iniciar sesión */
+@import url("base.css");
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 27rem;
+}
+
+.marca {
+  font-size: 1.75rem;
+  color: var(--xf-morado);
+}
+
+.form-control {
+  border-radius: .875rem;
+}

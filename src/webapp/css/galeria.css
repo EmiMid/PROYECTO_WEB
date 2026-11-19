@@ -1,0 +1,22 @@
+/* XFUERA · Galería */
+@import url("base.css");
+
+.pagination {
+  --bs-pagination-color: var(--xf-morado);
+  --bs-pagination-hover-color: var(--xf-morado);
+  --bs-pagination-active-bg: var(--xf-morado);
+  --bs-pagination-active-border-color: var(--xf-morado);
+  --bs-pagination-border-radius: 50rem;
+  --bs-pagination-focus-box-shadow: 0 0 0 .25rem rgba(106,63,196,.25);
+  gap: .25rem;
+}
+
+.pagination .page-link {
+  border-radius: 50rem;
+  border-color: #dcd6ea;
+}
+
+.cta {
+  background: var(--xf-tinta);
+  color: #fff;
+}

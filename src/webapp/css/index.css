@@ -1,0 +1,33 @@
+/* XFUERA · Catálogo */
+@import url("base.css");
+
+.hero {
+  background: var(--xf-tinta);
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: clamp(2.25rem,5vw,3.5rem);
+  line-height: 1.05;
+}
+
+.hero .resalte {
+  color: var(--xf-lima);
+}
+
+.hero .camiseta {
+  width: min(230px,70%);
+}
+
+.buscador {
+  flex: 0 1 320px;
+  margin-right: .5rem;
+}
+
+.xf-card .vista .camiseta {
+  width: 76%;
+}
+
+.row .bloque {
+  height: 110px;
+}

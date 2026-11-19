@@ -1,0 +1,26 @@
+/* XFUERA · Registrarse */
+@import url("base.css");
+
+.registro {
+  border: 0;
+  border-radius: 1.75rem;
+  overflow: hidden;
+}
+
+.marca {
+  font-size: 1.5rem;
+  color: var(--xf-morado);
+}
+
+.lado {
+  background: var(--xf-tinta);
+  color: #fff;
+}
+
+.lado .camiseta {
+  width: 55%;
+}
+
+.form-control {
+  border-radius: .875rem;
+}

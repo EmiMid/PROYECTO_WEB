@@ -1,0 +1,37 @@
+/* XFUERA · Mis pedidos */
+@import url("base.css");
+
+.mini {
+  width: 5.5rem;
+}
+
+.progress {
+  --bs-progress-height: .5rem;
+  --bs-progress-bg: var(--xf-lavanda);
+  --bs-progress-bar-bg: var(--xf-morado);
+}
+
+.estado {
+  font-weight: 700;
+  border-radius: 50rem;
+}
+
+.estado--produccion {
+  background: var(--xf-lavanda);
+  color: var(--xf-morado);
+}
+
+.estado--enviado {
+  background: #D6F4FB;
+  color: #0B6178;
+}
+
+.estado--entregado {
+  background: var(--xf-lima);
+  color: var(--xf-tinta);
+}
+
+.estado--cancelado {
+  background: #FDE2F1;
+  color: #9B1C6E;
+}
